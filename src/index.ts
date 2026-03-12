@@ -1,3 +1,12 @@
-let user: [number, string] = [1, "john"];
+enum Days {
+  Monday = 1,
+  Tuesday,
+  Wednesday,
+  Thirsday,
+  Friday,
+  Saturday,
+  Sunday,
+}
 
-console.log(user);
+let weekend: Days = Days.Sunday;
+console.log(weekend);
