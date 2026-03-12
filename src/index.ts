@@ -1,6 +1,5 @@
-let userName: string = "John";
-let age: number = 30;
-let salary: number = 50_00_00_0;
-let canDrive: boolean = true;
+let prices: number[] = [50, 200, 300];
+prices[0] = 100;
+// prices[1] = "100"
 
-console.log(userName, age, salary, canDrive);
+console.log(prices);

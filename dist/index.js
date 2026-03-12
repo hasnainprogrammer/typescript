@@ -1,8 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let userName = "John";
-let age = 30;
-let salary = 50_00_00_0;
-let canDrive = true;
-console.log(userName, age, salary, canDrive);
+let prices = [50, 200, 300];
+prices[0] = 100;
+// prices[1] = "100"
+console.log(prices);
 //# sourceMappingURL=index.js.map
