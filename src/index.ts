@@ -1,12 +1,7 @@
-enum Days {
-  Monday = 1,
-  Tuesday,
-  Wednesday,
-  Thirsday,
-  Friday,
-  Saturday,
-  Sunday,
+function calculateTax(income: number, taxYear: number = 2023): number {
+  if (taxYear < 2024) {
+    return income * 0.2;
+  }
+  return income * 0.3;
 }
-
-let weekend: Days = Days.Sunday;
-console.log(weekend);
+console.log(calculateTax(45_000));
